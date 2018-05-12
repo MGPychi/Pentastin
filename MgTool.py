@@ -1,7 +1,8 @@
 import os
 import time
+#coded by Mgchi
 if os.geteuid() !=0:
-    print('  \n \n \n \n  \n   \n                      pless run as root  \n \n \n \n \n  ')
+    print('  \n \n \n \n  \n   \n                     pleas run as root  \n \n \n \n \n  ')
     time.sleep(10)
 
 print('start script')
